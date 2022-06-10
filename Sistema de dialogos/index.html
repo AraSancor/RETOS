@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS</title>
+    <style>
+        body{
+            font-size: 1vw;
+            background-color: rgb(167, 173, 180);
+            margin-bottom: 3%;
+        }
+        .uno{   margin-top: 1%;
+                width: 30vw;
+                border-color: aliceblue;
+                background-color: aliceblue;
+                border-radius: 5px; 
+                text-align: center;
+            }
+
+        .dos{   margin-top: 22%;
+                width: 30vw;
+                border-color: aliceblue;
+                background-color: aliceblue;
+                border-radius: 5px; 
+                text-align: center;
+        }
+        .tres{  margin-top: 44%;
+                width: 30vw;
+                border-color: aliceblue;
+                background-color: aliceblue;
+                border-radius: 5px;  
+                text-align: center;        
+       }
+        .btuno{
+                background-color: blueviolet;
+                border-color: blueviolet;
+                border-width: 2px;
+                border-radius: 5px;
+                color: antiquewhite;
+                padding: 2%;
+        }
+        .btdos{ background-color: antiquewhite;
+                border-radius: 5px;
+                border-color: blueviolet;
+                border-width: 1px;
+                color: blueviolet;
+                padding: 2%;
+    }
+
+        .img{   width: 3vw;
+                height: 3vw;
+                border-radius: 50%;}
+        .close{
+                margin-left: 80%;
+                width: 3vw;
+                height: 3vw;
+                border-radius: 50%;
+        }
+    .div{
+        display: block;
+    }
+    </style>
+    </head>
+    
+        <div class="div">
+    
+            <div>
+    
+                <dialog open class="uno">
+                    
+                    <img src="exx.webp" alt="" class="close">
+                    <br>
+                    <img src="ex.png" alt="" class="img">
+                    
+                    <h2>¡CUIDADO!</h2>
+                    <p>No podras volver atras</p>
+                    <button class="btuno">Borrar</button>
+                    <button class="btdos">Cancelar</button>
+                </dialog>
+
+            </div>
+    
+            <div>
+                <dialog open class="dos">
+                    <img src="exx.webp" alt="" class="close">
+                    <br>
+                    <img src="check.png" alt="" class="img">
+                  <h2>¡VAMOS!</h2>
+                  <p>Todo ha salido bien :)</p>
+                  <button class="btuno">Cerrar pestaña</button>
+                </dialog>
+            </div>
+    
+
+            <div>
+                <dialog open class="tres">
+                    <img src="exx.webp" alt="" class="close">
+                    <br>
+                    <img src="close.jpg" alt="" class="img">
+                    <h2>Upss</h2>
+                    <p>Algo ha pasado</p>
+                </dialog>
+            </div>
+        </div>
+    </body>
+
+</html>
